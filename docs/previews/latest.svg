@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07152f"/>
+      <stop offset="0.55" stop-color="#0d2d66"/>
+      <stop offset="1" stop-color="#4a1d78"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#176bff"/>
+      <stop offset="1" stop-color="#04a7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <text x="70" y="105" fill="white" font-family="Segoe UI, Arial" font-size="58" font-weight="700">Bluetooth Reset</text>
+  <text x="72" y="150" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="24">Eén klik om je Bluetooth-adapter te herstellen</text>
+  <g transform="translate(690 70)">
+    <rect width="430" height="540" rx="24" fill="#101827" stroke="#52637c"/>
+    <text x="28" y="48" fill="white" font-family="Segoe UI, Arial" font-size="22">Bluetooth Reset</text>
+    <circle cx="215" cy="175" r="72" fill="#146be8" stroke="#57b5ff" stroke-width="4"/>
+    <text x="175" y="202" fill="white" font-family="Segoe UI Symbol, Arial" font-size="88">ᛒ</text>
+    <text x="130" y="285" fill="white" font-family="Segoe UI, Arial" font-size="28" font-weight="600">Bluetooth is </text>
+    <text x="300" y="285" fill="#4ade80" font-family="Segoe UI, Arial" font-size="28" font-weight="700">AAN</text>
+    <rect x="35" y="325" width="360" height="72" rx="12" fill="url(#button)"/>
+    <text x="108" y="371" fill="white" font-family="Segoe UI, Arial" font-size="26" font-weight="600">↻ Reset Bluetooth</text>
+    <rect x="35" y="420" width="360" height="62" rx="12" fill="#1e293b"/>
+    <text x="112" y="460" fill="#dbeafe" font-family="Segoe UI, Arial" font-size="22">Bluetooth uitschakelen</text>
+    <text x="35" y="520" fill="#64748b" font-family="Segoe UI, Arial" font-size="15">Draait alleen wanneer jij de tool opent.</text>
+  </g>
+  <g font-family="Segoe UI, Arial" font-size="24" fill="white">
+    <text x="85" y="245">✓ Werkt wanneer het normale Bluetooth-icoon ontbreekt</text>
+    <text x="85" y="300">✓ Schakelt de adapter echt uit en weer in</text>
+    <text x="85" y="355">✓ Geen permanente achtergrondservice</text>
+    <text x="85" y="410">✓ Automatische beheerdersrechten</text>
+    <text x="85" y="465">✓ Actielog en duidelijke foutmeldingen</text>
+  </g>
+  <rect x="70" y="550" width="530" height="78" rx="18" fill="#0d1d36" stroke="#315684"/>
+  <text x="105" y="598" fill="#93c5fd" font-family="Segoe UI, Arial" font-size="24">Zeer lichte Windows-tool · versie 0.1.0</text>
+</svg>
