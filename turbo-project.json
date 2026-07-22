@@ -1,0 +1,14 @@
+{
+  "name": "Bluetooth Reset",
+  "slug": "bluetooth-reset",
+  "version": "0.1.0",
+  "description": "Lichte Windows-tool om een vastgelopen Bluetooth-adapter te resetten of aan en uit te zetten.",
+  "preview": "docs/previews/latest.svg",
+  "start_command": "Start Bluetooth Reset.bat",
+  "default_port": 0,
+  "health_url": "",
+  "project_type": "windows-desktop",
+  "requires_admin": true,
+  "entrypoint": "app/bluetooth_reset.py",
+  "logs": "logs/bluetooth-reset.log"
+}
